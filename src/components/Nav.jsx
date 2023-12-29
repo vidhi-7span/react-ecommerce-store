@@ -6,7 +6,6 @@ import { CgMenu, CgClose } from "react-icons/cg";
 
 const Nav = () => {
   const [menuIcon, setMenuIcon] = useState();
-
   const Nav = styled.nav`
     .navbar-lists {
       display: flex;
@@ -132,7 +131,7 @@ const Nav = () => {
         transform: translateX(0);
         z-index: 999;
         transform-origin: right;
-        transition: all 3s linear;
+        transition: all 0.1s linear;
 
         .navbar-link {
           font-size: 4.2rem;
@@ -160,7 +159,6 @@ const Nav = () => {
       }
     }
   `;
-
   return (
     <Nav>
       <div className={menuIcon ? "navbar active" : "navbar"}>
