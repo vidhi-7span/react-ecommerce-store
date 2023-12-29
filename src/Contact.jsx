@@ -78,7 +78,6 @@ const Contact = () => {
               autoComplete="off"
               placeholder="Enter you message"
             ></textarea>
-
             <input type="submit" value="send" />
           </form>
         </div>
