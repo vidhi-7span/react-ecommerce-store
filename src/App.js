@@ -10,6 +10,7 @@ import ErrorPage from "./ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   const theme = {
@@ -18,11 +19,11 @@ const App = () => {
       text: "rgba(29,29,29,0.8)",
       white: "#fff",
       black: "#212529",
-      helper: "#545454",
+      helper: "#ae9d57",
       bg: "#F6F8FA",
-      footer_bg: "#0a1435",
-      btn: "rgb(98 84 243)",
-      border: "rgba(98,84,243,0.5)",
+      footer_bg: "#545454",
+      btn: "#ae9d57",
+      border: "rgba(84, 84, 84,0.5)",
       hr: "#ffffff",
       gradient: 
         "linear-gradient(0deg , rgb(132 144 255) 0%, rgb(98 189 252) 100% )",
@@ -49,6 +50,8 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+        
+      <Footer/>
       </BrowserRouter>
     </ThemeProvider>
   );

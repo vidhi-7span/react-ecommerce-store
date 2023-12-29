@@ -72,7 +72,7 @@ const Wrapper = styled.section`
       content: "";
       width: 60%;
       height: 80%;
-      background-color: rgba(81, 56, 238, 0.4);
+      background-color: rgba(174, 157, 87, 0.4);
       position: absolute;
       left: 50%;
       top: -5rem;
@@ -95,7 +95,7 @@ const Wrapper = styled.section`
       height: 100%;
       left: 0;
       top: 10%;
-      background-color: rgba(81, 56, 238, 0.4);
+      background-color:rgba(174, 157, 87, 0.4);
     }
   }
 `;

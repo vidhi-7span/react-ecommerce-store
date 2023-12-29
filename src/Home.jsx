@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection myData={data} />
-      <Services/>
+      <Services />
       <Trusted />
     </div>
   );
