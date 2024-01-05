@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img className="logo" src="./images/logo.jpg" alt="logo" />
+        <img className="logo" src="./images/logo.png" alt="logo" />
       </NavLink>
-      <Nav/>
+      <Nav />
     </MainHeader>
   );
 };
@@ -25,7 +25,6 @@ const MainHeader = styled.section`
 
   .logo {
     height: 9rem;
-    border-radius:100%
   }
 `;
 export default Header;

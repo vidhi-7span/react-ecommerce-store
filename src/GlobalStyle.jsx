@@ -121,7 +121,7 @@ ${"" /* resuable code section  */}
      .intro-data {
       margin-bottom: 0;
       text-transform: uppercase;
-      color: #ae9d57;
+      color: #d91c51;
     }
 
    .caption {
@@ -150,7 +150,7 @@ input, textarea{
     background-color: ${({ theme }) => theme.colors.btn};
     color: ${({ theme }) => theme.colors.white};
     padding: 1.4rem 2.2rem;
-    border-style: solid;
+    border-style: none;
     border-width: .1rem;
     text-transform: uppercase;
     font-size: 1.8rem;
